@@ -37,6 +37,7 @@ img {
   background-image: linear-gradient(to left, #ff73008e, #ff7300b9, #ff7300);
 }
 
+/* Banner area start */
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,6 +70,7 @@ img {
   max-width: 720px;
 }
 
+/* About area start */
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,6 +116,7 @@ img {
   margin-top: 10px;
 }
 
+/* Recipe area start */
 .recipe .recipe-title-area {
   text-align: center;
   margin-bottom: 20px;
@@ -168,6 +171,7 @@ img {
           transform: translateY(-15px);
 }
 
+/* Counter area Start */
 .counter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,6 +202,7 @@ img {
   margin-bottom: 0px;
 }
 
+/* Footer area start */
 .footer {
   background-color: #000000;
   text-align: center;
