@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ptb-100 {
+  padding: 100px;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-button {
+  border: 0px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 25px;
+  transition: 1s ease;
+  display: inline-block;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff73008e), color-stop(#ff7300b9), to(#ff7300));
+  background-image: linear-gradient(to right, #ff73008e, #ff7300b9, #ff7300);
+}
+
+.main-button:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#ff73008e), color-stop(#ff7300b9), to(#ff7300));
+  background-image: linear-gradient(to left, #ff73008e, #ff7300b9, #ff7300);
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.banner .banner-text-area h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.banner .banner-text-area h1 span {
+  color: #ff7300;
+}
+
+.banner .banner-text-area p {
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.banner .banner-img-area {
+  max-width: 720px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: url("../images/about-bg.png");
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+
+.about .about-img-area {
+  max-width: 500px;
+}
+
+.about .about-img-area img {
+  margin-bottom: -20px;
+}
+
+.about .about-text-area {
+  max-width: 720px;
+}
+
+.about .about-text-area h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 12px;
+}
+
+.about .about-text-area p {
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.about .about-text-area .main-button {
+  margin-top: 10px;
+}
+
+.recipe .recipe-title-area {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe .recipe-title-area h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 12px;
+}
+
+.recipe .recipe-title-area p {
+  color: #707070;
+  margin-bottom: 15px;
+}
+
+.recipe-card-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recipe-card-area .recipe-card {
+  max-width: 32%;
+  margin: 30px 30px 0px 30px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-box-shadow: 0px 0px 10px -5px #b1b1b1;
+          box-shadow: 0px 0px 10px -5px #b1b1b1;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.recipe-card-area .recipe-card img {
+  border-radius: 25px;
+}
+
+.recipe-card-area .recipe-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-card-area .recipe-card p {
+  color: #707070;
+}
+
+.recipe-card-area .recipe-card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 100px;
+  padding: 70px 100px;
+  border-radius: 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 0px 10px -5px #b1b1b1;
+          box-shadow: 0px 0px 10px -5px #b1b1b1;
+}
+
+.counter .counter-card {
+  max-width: 32%;
+  text-align: center;
+}
+
+.counter .counter-card h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.counter .counter-card p {
+  color: #707070;
+  margin-bottom: 0px;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+  color: #d8d8d8;
+  margin-top: 100px;
+}
+
+.footer h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 10px;
+}
+
+.footer h3 span {
+  color: #ff7300;
+}
